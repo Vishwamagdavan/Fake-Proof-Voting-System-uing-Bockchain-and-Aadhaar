@@ -1,0 +1,13 @@
+###
+POST http://localhost:5000/checkaadhar
+Content-Type: application/json
+
+{
+    "aadhar":"1234123412341234",
+    "address":"somecode",
+    "castedto":"ADMK"
+}
+
+###
+
+GET http://localhost:5000/
